@@ -1,4 +1,5 @@
 """ Traditional Method to generate prime no.
+ checking if is divisible by each number from 2 all the way to n-1
 def prime(n):
     for j in range (2,n):
         for i in range(2,j):
